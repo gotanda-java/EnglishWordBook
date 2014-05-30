@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- リニアレイアウト(縦並び) -->
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <!-- 画面タイトル -->
+  <TextView
+    android:text="@string/tv_checkword_title"
+    android:textSize="30sp"
+    android:textColor="@android:color/white"
+    android:gravity="center"
+    android:background="@color/dark_green"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginBottom="10dp"  />
+  
+  <!-- 英単語表示用テキスト -->
+  <TextView 
+    android:text="@string/tv_check_englishword"
+    android:textSize="20sp"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:layout_marginBottom="5dp" />
+    
+  <!-- 英単語テキスト -->
+  <TextView 
+    android:id="@+id/tv_englishword"
+    android:textSize="30sp"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_marginBottom="10dp"/>
+   
+  <!-- 日本語訳表示用テキスト --> 
+  <TextView 
+    android:text="@string/tv_check_japaneseword"
+    android:textSize="20sp"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:layout_marginBottom="5dp" />
+    
+  <!-- 日本語訳テキスト -->
+  <TextView 
+    android:id="@+id/tv_japaneseword"
+    android:textSize="30sp"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_marginBottom="10dp"/>
+  
+    <!-- 補足表示用テキスト --> 
+  <TextView 
+    android:text="@string/tv_extras"
+    android:textSize="20sp"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:layout_marginBottom="5dp" />
+    
+  <!-- 補足テキスト -->
+  <TextView 
+    android:id="@+id/tv_extras"
+    android:textSize="20sp"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:layout_marginBottom="10dp"/>
+
+　<!-- リニアレイアウト(横並び) -->
+  <LinearLayout
+    android:orientation="horizontal"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"> 
+    
+    <!-- トップボタン -->
+    <Button 
+      android:id="@+id/btn_toppage"
+      android:text="@string/btn_toppage"
+      android:layout_width="100dp"
+      android:layout_height="50dp"/>
+      
+    <!-- 前へボタン -->
+    <Button 
+      android:id="@+id/btn_backpage"
+      android:text="@string/btn_backpage"
+      android:layout_width="60dp"
+      android:layout_height="50dp"/>
+   
+    <!-- 次へボタン -->   
+    <Button 
+      android:id="@+id/btn_nextpage"
+      android:text="@string/btn_nextpage"
+      android:layout_width="60dp"
+      android:layout_height="50dp"/>
+      
+    <!-- 発音チェックボタン -->
+    <Button 
+      android:id="@+id/btn_checkpronounce"
+      android:text="@string/btn_checkpronounce"
+      android:layout_width="100dp"
+      android:layout_height="50dp"/>
+    
+  </LinearLayout>    
+</LinearLayout>

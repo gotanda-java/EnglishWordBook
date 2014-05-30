@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- リニアレイアウト(縦並び) -->
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+   <!-- 画面タイトル -->
+   <TextView
+    android:text="@string/tv_checkpronounce_title"
+    android:textSize="30sp"
+    android:textColor="@color/dark_red"
+    android:gravity="center"
+    android:background="@color/smoke_pink"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginBottom="20dp"  />
+  
+  <!-- リニアレイアウト(横並び) --> 
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    
+    <!-- STARTボタン用テキスト --> 
+    <TextView 
+      android:text="@string/tv_pushbutton"
+      android:textSize="20sp"
+      android:layout_width="match_parent"
+      android:layout_height="30dp"
+      android:layout_marginBottom="5dp"
+      android:layout_marginRight="10dp"  />
+      
+    <!-- STARTボタン -->
+    <Button 
+        android:id="@+id/btn_checkpronounce"
+        android:text="@string/btn_startcheck"
+        android:textSize="12sp"
+        android:layout_width="100dp"
+        android:layout_height="35dp"/>
+  </LinearLayout>
+    
+  <!-- 英単語テキスト -->
+  <TextView 
+    android:id="@+id/tv_englishword"
+    android:textSize="30sp"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginBottom="20dp"/>
+  
+  <!-- 発音結果用テキスト --> 
+  <TextView 
+    android:text="@string/tv_result"
+    android:textSize="20sp"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:layout_marginBottom="5dp" />
+    
+  <!-- 発音結果テキスト -->  
+  <TextView 
+    android:id="@+id/tv_speakword"
+    android:textSize="30sp"
+    android:textColor="@color/dark_blue"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginBottom="20dp"/>
+
+　<!-- リニアレイアウト(横並び) -->
+  <LinearLayout
+    android:orientation="horizontal"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"> 
+    
+    <!-- 単語帳ボタン -->
+    <Button 
+      android:id="@+id/btn_checkwordpage"
+      android:text="@string/btn_checkwordpage"
+      android:layout_width="100dp"
+      android:layout_height="50dp"/>
+      
+    <!-- 正しい発音ボタン -->
+    <Button 
+      android:id="@+id/btn_correctpronounce"
+      android:text="@string/btn_correctpronounce"
+      android:layout_width="100dp"
+      android:layout_height="50dp"/>
+    
+  </LinearLayout> 
+    
+</LinearLayout>

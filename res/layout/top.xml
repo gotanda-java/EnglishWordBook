@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- リニアレイアウト(縦並び) -->
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+  <!-- トップ画像 -->
+  <ImageView 
+    android:background="@drawable/tango_top"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp" 
+    android:contentDescription="@string/no_text"/>
+    
+  <!-- 単語帳ボタン -->
+  <Button 
+    android:id="@+id/btn_checkword"
+    android:text="@string/btn_checkword"
+    android:layout_width="200dp"
+    android:layout_height="60dp"
+    android:layout_gravity="center_horizontal" />
+    
+  <!-- 単語登録ボタン -->
+  <Button 
+    android:id="@+id/btn_addword"
+    android:text="@string/btn_addword"
+    android:layout_width="200dp"
+    android:layout_height="60dp"
+    android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- リニアレイアウト(縦並び) -->
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+  <!-- 画面タイトル -->
+  <TextView
+    android:text="@string/tv_addword_title"
+    android:textSize="30sp"
+    android:textColor="@android:color/white"
+    android:gravity="center"
+    android:background="@color/dark_blue"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginBottom="20dp"  />
+  
+  <!-- 英単語入力エリア用テキスト --> 
+  <TextView 
+    android:text="@string/tv_englishword"
+    android:textSize="20sp"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:layout_marginBottom="5dp" />
+  
+  <!-- 英単語入力エリア -->
+  <EditText 
+    android:id="@+id/et_englishword"
+    android:inputType="text"
+    android:singleLine="true"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginBottom="20dp"/>
+  
+  <!-- 日本語訳入力エリア用テキスト -->
+  <TextView 
+    android:text="@string/tv_japaneseword"
+    android:textSize="20sp"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:layout_marginBottom="5dp"/>
+  
+  <!-- 日本語訳入力エリア -->
+  <EditText 
+    android:id="@+id/et_japaneseword"
+    android:inputType="text"
+    android:singleLine="true"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginBottom="20dp" />
+  
+    <!-- 補足入力エリア用テキスト -->
+  <TextView 
+    android:text="@string/tv_extras"
+    android:textSize="20sp"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:layout_marginBottom="5dp"/>
+  
+  <!-- 補足入力エリア -->
+  <EditText 
+    android:id="@+id/et_extras"
+    android:inputType="text"
+    android:singleLine="true"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginBottom="20dp" />
+
+  <!-- リニアレイアウト(横並び) -->
+  <LinearLayout
+    android:orientation="horizontal"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"> 
+    
+    <!-- トップボタン -->
+    <Button 
+      android:id="@+id/btn_toppage"
+      android:text="@string/btn_toppage"
+      android:layout_width="100dp"
+      android:layout_height="50dp"/>
+    
+    <!-- 登録ボタン -->
+    <Button 
+      android:id="@+id/btn_save"
+      android:text="@string/btn_save"
+      android:layout_width="100dp"
+      android:layout_height="50dp"/>
+    
+        <!-- 削除ボタン -->
+    <Button 
+      android:id="@+id/btn_deleteall"
+      android:text="@string/btn_deleteall"
+      android:layout_width="100dp"
+      android:layout_height="50dp"/>
+   
+  </LinearLayout>
+    
+</LinearLayout>

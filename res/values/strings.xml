@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EnglishWordBook</string>
+    
+    <string name="tv_addword_title">英単語を登録</string>
+    <string name="tv_englishword">英単語を入力してください。</string>
+    <string name="tv_japaneseword">日本語訳を入力してください。</string>
+    <string name="tv_checkpronounce_title">発音Check</string>
+    <string name="tv_pushbutton">ボタンを押して発音</string>
+    <string name="tv_result">あなたの発音結果</string>
+    <string name="tv_checkword_title">英単語帳</string>
+    <string name="tv_check_englishword">英単語の日本語訳は？</string>
+    <string name="tv_check_japaneseword">日本語訳</string>
+    <string name="tv_extras">補足</string>
+    
+    <string name="btn_checkword">英単語帳を開く</string>
+    <string name="btn_addword">単語を登録する</string>
+    <string name="btn_toppage">トップへ</string>
+    <string name="btn_save">単語を登録</string>
+    <string name="btn_nextpage">次へ</string>
+    <string name="btn_backpage">前へ</string>
+    <string name="btn_checkpronounce">発音Check</string>
+    <string name="btn_startcheck">START</string>
+    <string name="btn_correctpronounce">正しい発音</string>
+    <string name="btn_checkwordpage">英単語帳へ</string>
+    <string name="btn_deleteall">全て削除</string>
+    
+    <string name="add_confirm_text">登録確認</string>
+    <string name="confirm_message_text">登録してよろしいですか。</string>
+    <string name="yes_text">はい</string>
+    <string name="input_words_text">英単語と日本語訳を入力してください。</string>
+    <string name="no_text">いいえ</string>
+    <string name="activity_notfound_text">音声認識用アクティビティが見つかりませんでした</string>
+    <string name="noword_input_text">登録された単語はありません。</string>
+    <string name="noword_next_text">次の単語はありません。</string>
+    <string name="noword_back_text">前の単語はありません。</string>
+    <string name="check_pronounce_text">発音チェック</string>
+</resources>
