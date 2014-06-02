@@ -14,11 +14,14 @@ public final class R {
         public static final int dark_blue=0x7f040000;
         public static final int dark_green=0x7f040001;
         public static final int dark_red=0x7f040003;
+        public static final int orange=0x7f040005;
         public static final int smoke_pink=0x7f040002;
+        public static final int yellow=0x7f040004;
     }
     public static final class drawable {
-        public static final int icon=0x7f020000;
-        public static final int tango_top=0x7f020001;
+        public static final int button_customize=0x7f020000;
+        public static final int icon=0x7f020001;
+        public static final int tango_top=0x7f020002;
     }
     public static final class id {
         public static final int btn_addword=0x7f060010;
@@ -46,7 +49,7 @@ public final class R {
         public static final int top=0x7f030003;
     }
     public static final class string {
-        public static final int activity_notfound_text=0x7f05001b;
+        public static final int activity_notfound_text=0x7f05001d;
         public static final int add_confirm_text=0x7f050016;
         public static final int app_name=0x7f050000;
         public static final int btn_addword=0x7f05000c;
@@ -60,13 +63,15 @@ public final class R {
         public static final int btn_save=0x7f05000e;
         public static final int btn_startcheck=0x7f050012;
         public static final int btn_toppage=0x7f05000d;
-        public static final int check_pronounce_text=0x7f05001f;
+        public static final int check_pronounce_text=0x7f050021;
         public static final int confirm_message_text=0x7f050017;
-        public static final int input_words_text=0x7f050019;
-        public static final int no_text=0x7f05001a;
-        public static final int noword_back_text=0x7f05001e;
-        public static final int noword_input_text=0x7f05001c;
-        public static final int noword_next_text=0x7f05001d;
+        public static final int delete_confirm_text=0x7f050018;
+        public static final int deleteconfirm_message_text=0x7f050019;
+        public static final int input_words_text=0x7f05001b;
+        public static final int no_text=0x7f05001c;
+        public static final int noword_back_text=0x7f050020;
+        public static final int noword_input_text=0x7f05001e;
+        public static final int noword_next_text=0x7f05001f;
         public static final int tv_addword_title=0x7f050001;
         public static final int tv_check_englishword=0x7f050008;
         public static final int tv_check_japaneseword=0x7f050009;
@@ -77,6 +82,6 @@ public final class R {
         public static final int tv_japaneseword=0x7f050003;
         public static final int tv_pushbutton=0x7f050005;
         public static final int tv_result=0x7f050006;
-        public static final int yes_text=0x7f050018;
+        public static final int yes_text=0x7f05001a;
     }
 }

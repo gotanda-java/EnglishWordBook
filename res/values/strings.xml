@@ -27,6 +27,8 @@
     
     <string name="add_confirm_text">登録確認</string>
     <string name="confirm_message_text">登録してよろしいですか。</string>
+    <string name="delete_confirm_text">削除確認</string>
+    <string name="deleteconfirm_message_text">登録済みの単語を全て削除します。よろしいですか。</string>
     <string name="yes_text">はい</string>
     <string name="input_words_text">英単語と日本語訳を入力してください。</string>
     <string name="no_text">いいえ</string>

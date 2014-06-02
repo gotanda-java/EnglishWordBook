@@ -143,4 +143,8 @@ public class EnglishWordBookDbUtil {
         return wordList;
     }
     
+    public void deleteWord(){
+    	db = helper.getWritableDatabase();
+    	db.delete(TABLE_NAME, null, null);
+    }
 }

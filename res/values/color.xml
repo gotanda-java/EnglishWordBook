@@ -4,4 +4,6 @@
     <color name="dark_green">#006400</color>
     <color name="smoke_pink">#FF9999</color>
     <color name="dark_red">#990033</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="orange">#FFA500</color>
 </resources>

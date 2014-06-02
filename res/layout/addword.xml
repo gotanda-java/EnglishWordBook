@@ -94,7 +94,8 @@
       android:id="@+id/btn_deleteall"
       android:text="@string/btn_deleteall"
       android:layout_width="100dp"
-      android:layout_height="50dp"/>
+      android:layout_height="50dp"
+      android:background="@drawable/button_customize"/>
    
   </LinearLayout>
     
